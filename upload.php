@@ -17,7 +17,7 @@ php_value max_execution_time 300
 php_value max_input_time 300
 
 # END WordPress
-}else{
+}elseif add file in wp_admin by php.ini{
 upload_max_filesize = 64M
 post_max_size = 64M
 max_execution_time = 300
